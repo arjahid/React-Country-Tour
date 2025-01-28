@@ -4,3 +4,20 @@
     padding: 15px;
     border-radius: 10px;
 }
+@media screen and (max-width: 600px) {
+    .country {
+        border-width: 1px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
+
+/* For screens that are 900px or larger */
+@media screen and (min-width: 900px) {
+    .country {
+        border-width: 3px;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 15px}
+    }
